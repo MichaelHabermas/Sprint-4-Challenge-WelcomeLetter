@@ -14,12 +14,12 @@ public class Datasource {
 
     public Datasource() {
         Company company1 = Company.builder()
-                .withCompanyname("US Company")
+                .withCompanyName("US Company")
                 .withCountry("USA")
                 .build();
 
         Company company2 = Company.builder()
-                .withCompanyname("Paper Company")
+                .withCompanyName("Paper Company")
                 .build();
 
         companies.add(company1);
@@ -28,8 +28,8 @@ public class Datasource {
         Employee emp1 = Employee.builder()
                 .withFirstname("Lucia")
                 .withLastname("Hill")
-                .withPhonenumber("123-456-7890")
-                .withStartdate(LocalDate.of(2022, 6, 30))
+                .withPhoneNumber("123-456-7890")
+                .withStartDate(LocalDate.of(2022, 6, 30))
                 .withEmail("riverlinkai@email.com")
                 .withSalary(90000)
                 .withRole(Role.COORDINATOR)
@@ -41,7 +41,7 @@ public class Datasource {
                 .withLastname("Lugo")
                 .withSalary(50000)
                 .withCompany(company2)
-                .withStartdate(LocalDate.now())
+                .withStartDate(LocalDate.now())
                 .build();
 
         employees.add(emp1);

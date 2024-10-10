@@ -43,10 +43,10 @@ class MasteryTask_2_ClassDiagrams {
         PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Employee", "id");
         PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Employee", "firstname");
         PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Employee", "lastname");
-        PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Employee", "phonenumber");
+        PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Employee", "phoneNumber");
         PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Employee", "email");
         PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Employee", "salary");
-        PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Employee", "startdate");
+        PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Employee", "startDate");
         PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Employee", "role");
     }
 
@@ -54,7 +54,7 @@ class MasteryTask_2_ClassDiagrams {
     void modelsClassDiagram_companyContainsFields() {
         String content = AtaTestHelper.getFileContentFromResources(MODELS_CLASS_DIAGRAM_PATH);
         PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Company", "id");
-        PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Company", "companyname");
+        PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Company", "companyName");
         PlantUmlClassDiagramAssertions.assertClassDiagramTypeContainsMember (content, "Company", "country");
     }
 

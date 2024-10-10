@@ -20,12 +20,12 @@ class MasteryTask_1_BuilderPattern {
         Employee emp = Employee.builder()
                 .withFirstname("firstname")
                 .withLastname("lastname")
-                .withPhonenumber("11111111")
+                .withPhoneNumber("11111111")
                 .withEmail(testemail)
                 .withCompany(c1)
                 .withRole(Role.ENGINEERING)
                 .withSalary(150000)
-                .withStartdate(LocalDate.now())
+                .withStartDate(LocalDate.now())
                 .build();
 
         assertNotNull(emp.getFirstname());
